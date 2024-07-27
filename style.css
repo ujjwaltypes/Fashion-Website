@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gil;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 0.001%;
+}
+#nav{
+    height: 11vh;
+    width: 100%;
+    /background-color: red;
+    margin-top: 40px;
+    border-top:2px solid black ;
+    border-bottom:2px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    /background-color: yellow;
+    height: 100%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:monument;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+#nav h2{
+    background-color: ylow;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-size: 26px;
+    font-weight: 600;
+}
+#nav h2:nth-last-child(2){
+    width: 29%;
+}
+#nav h2:nth-last-child(1){
+    width: 10%;
+}
+#center{
+    height: 90%;
+    width: 100%;
+    background-color: d;
+    padding:4vw;
+    position: relative;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#overlay{
+    height: 50%;
+    width: 100%;
+    position:absolute;
+    background-color: d;
+    bottom: 0;
+    padding: 2vw;
+    color: white;
+}
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+#over1 h1{
+    font-family: monument;
+    font-size: 3.6vw;
+}
+#over1 h2{
+    font-size: 1vw;
+    padding: 2vw 2.2vw;
+    border-radius: 50%;
+    border:1px solid #fff;
+}
+
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-top: 1px solid #fff;
+    padding: 1vw 0;
+}
+#over2 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#over2 img{
+    height: 3vw;
+}
+#scroll{
+    height: 40vh;
+    width: 100%;
+    background-color: d;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#container{
+    height: 100%;
+    width: 110%;
+    background-color: ue;
+    display: inline-block;
+    padding: 2vw;
+}
+#scroll img{
+    height: 100%;
+    border-radius: 50%;
+    width: 15%;
+    margin: 1vw;
+    object-fit: cover;
+    object-position: top;
+}
+
+@keyframes anime {
+    from{
+        transform: translate(0);
+    }
+    to{
+       transform: translate(-50%);
+    }
+}
